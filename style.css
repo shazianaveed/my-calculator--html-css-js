@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+    box-sizing: border-box;
+}
+.main-container{
+    background-image: url(https://plus.unsplash.com/premium_photo-1661663603858-2df08fe3d65d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    );
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.calculator{
+   background:rgb(209, 154, 162);
+    padding: 20px;
+    border-radius: 40px;
+    
+ 
+ 
+    
+    
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    min-width: 40px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.equal{
+    width: 145px;
+}
+form input.operator{
+color: red;
+font-size: larger;
+}
+form input.operator1{
+    color: rgb(12, 171, 12);
+    font-size:larger;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-image: url(https://plus.unsplash.com/premium_photo-1661663603858-2df08fe3d65d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    background: rgb(209, 154, 162);
+    padding: 20px;
+    border-radius: 40px;
+    max-width: 400px; /* Limit max width */
+    width: 90%; /* Allow flexibility */
+}
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+form input.equal {
+    width: 145px;
+}
+
+form input.operator {
+    color: red;
+    font-size: larger;
+}
+
+form input.operator1 {
+    color: rgb(12, 171, 12);
+    font-size: larger;
+}
+
+
+
